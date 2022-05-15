@@ -3,6 +3,8 @@ My app is called Clash of Clans Players Stats. This is an app for the players of
 
 
 ## WIREFRAMES
+![Screen Shot 2022-05-15 at 12 33 10 PM](https://user-images.githubusercontent.com/100162086/168485784-fe7d4314-0be6-4232-a711-ce4ff5339db8.png)
+![Screen Shot 2022-05-15 at 12 39 48 PM](https://user-images.githubusercontent.com/100162086/168485788-ef118205-a62a-4fe9-bebe-76268420cf36.png)
 
 
 
@@ -58,6 +60,7 @@ My app is called Clash of Clans Players Stats. This is an app for the players of
 
 
 ## COMPONENT HIERARCHY
+![Screen Shot 2022-05-15 at 1 00 31 PM](https://user-images.githubusercontent.com/100162086/168485792-07a13553-56b0-4eb5-8ed0-2c18c0d1a0f1.png)
 
 
 
