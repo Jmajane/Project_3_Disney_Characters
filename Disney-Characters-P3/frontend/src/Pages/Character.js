@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import CharacterInfo from './CharacterInfo'
 
 function Character(props) {
     const [character, setCharacter] = useState(null)
@@ -29,6 +30,7 @@ function Character(props) {
           </div>
         )): 
         <h2>Loading ....</h2>}
+        <CharacterInfo character={character}/>
     </main>
   )
 }
