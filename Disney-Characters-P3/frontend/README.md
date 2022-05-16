@@ -1,5 +1,5 @@
 ## APP DESCRIPTION
-My app is called Clash of Clans Players Stats. This is an app for the players of Clash of Clans to go to and look up stats to any player in the game.  The home page will show them who the top 10 players of that week are.  The show page will show information of the current town hall level, trophies, and the units/ heros.  In the future, I would like to have a breakdown of what the different levels of heros/troops provied the player.  Along with a video on the home screen show casing the monthly community challenge attack.
+My app is to search through disney characters. First the characters will be in alphabetical order.  When you click on a picture it will take you the character page showing you additional information.  
 
 
 ## WIREFRAMES
@@ -7,52 +7,78 @@ My app is called Clash of Clans Players Stats. This is an app for the players of
 
 
 ## MVP USER STORIES
-- As a user, I want to be able to look at any players stats that I may want to search.
-- As a user, I want to be able to see what clan a player is in and if they are in a clan.
-- As a user, I would like to showcase the levels of my heros and town halls.
+- As a user, I want to be able to see images of the characters.
+- As a user, I want to be able to see what movies the chacter has been in.
+- As a user, I would like to see all the characters the disnay has to offer.
 
 
 ## API
--https://developer.clashofclans.com/#/getting-started
+-https://api.disneyapi.dev/characters
 
 ## PLAYERS RESPONSE
 {
-  "tag": "#LL8JPU2Q",
-  "name": "iTz D1PS3T",
-  "townHallLevel": 11,
-  "expLevel": 146,
-  "trophies": 2997,
-  "bestTrophies": 3477,
-  "warStars": 640,
-  "attackWins": 43,
-  "defenseWins": 2,
-  "builderHallLevel": 7,
-  "versusTrophies": 2572,
-  "bestVersusTrophies": 2653,
-  "versusBattleWins": 823,
-  "role": "admin",
-  "warPreference": "out",
-  "donations": 90,
-  "donationsReceived": 594,
-  "clan": {
-    "tag": "#2QLVUYC0Y",
-    "name": "Black Titans",
-    "clanLevel": 7,
-    "badgeUrls": {
-      "small": "https://api-assets.clashofclans.com/badges/70/C1g-nNn_pNQYUIbLMHXhc6TYViEYwcxtD_idB5jSUVE.png",
-      "large": "https://api-assets.clashofclans.com/badges/512/C1g-nNn_pNQYUIbLMHXhc6TYViEYwcxtD_idB5jSUVE.png",
-      "medium": "https://api-assets.clashofclans.com/badges/200/C1g-nNn_pNQYUIbLMHXhc6TYViEYwcxtD_idB5jSUVE.png"
-    }
-  },
-  "league": {
-    "id": 29000015,
-    "name": "Master League I",
-    "iconUrls": {
-      "small": "https://api-assets.clashofclans.com/leagues/72/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
-      "tiny": "https://api-assets.clashofclans.com/leagues/36/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
-      "medium": "https://api-assets.clashofclans.com/leagues/288/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png"
-    }
-  },
+  "data": [
+    {
+      "films": [],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 6,
+      "name": "'Olu Mel",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/61/Olu_main.png",
+      "url": "https://api.disneyapi.dev/characters/6"
+    },
+    {
+      "films": [],
+      "shortFilms": [],
+      "tvShows": [
+        "Gravity Falls"
+      ],
+      "videoGames": [],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 7,
+      "name": ".GIFfany",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/51/Giffany.png",
+      "url": "https://api.disneyapi.dev/characters/7"
+    },
+    {
+      "films": [],
+      "shortFilms": [],
+      "tvShows": [
+        "Lilo & Stitch: The Series",
+        "Stitch!"
+      ],
+      "videoGames": [
+        "Disney Tsum Tsum (game)"
+      ],
+      "parkAttractions": [],
+      "allies": [],
+      "enemies": [],
+      "_id": 10,
+      "name": "627",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/80/Profile_-_627.png",
+      "url": "https://api.disneyapi.dev/characters/10"
+    },
+    {
+      "films": [],
+      "shortFilms": [],
+      "tvShows": [],
+      "videoGames": [],
+      "parkAttractions": [
+        "The Timekeeper"
+      ],
+      "allies": [],
+      "enemies": [],
+      "_id": 11,
+      "name": "9-Eye",
+      "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/77/9-eye.jpg",
+      "url": "https://api.disneyapi.dev/characters/11"
+    },
 
 - NOTE - this response returned 800+ lines of code, this is only a sample.
 
