@@ -47,36 +47,14 @@ table {
 }
 
 
-main {
+.App {
   background-color: aquamarine;
-  align-items: center;
-  justify-content: center;
 }
 
-/* .character-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
+h3 {
+  font-family: Mouse Memoirs;
 }
 
-.character img {
-  background: white;
-  border-radius: 50px;
-  margin: 10px;
-  width: 12vw;
-  height: 12vh;
-  box-shadow: 5px 5px 10px;
-  border: solid 2px rgb(35, 12, 179);
-  object-fit: contain;
-} */
-
-.character {
-  text-align: center;
-}
-
-h3, .nav{
-  font-size: 20px;
+main {
   font-family: Mouse Memoirs;
 }

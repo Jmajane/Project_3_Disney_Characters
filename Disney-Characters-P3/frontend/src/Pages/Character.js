@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-// import axios from 'axios'
+
 import ReactPaginate from 'react-paginate'
 
 function Character() {
@@ -41,19 +41,24 @@ function Character() {
     <div className="container">
       <div className="row m-2">
       {character ? character.data.map((char) => {
-        return <div className="col-sm-6 col-md-4 v my-2" >
-          <div className="card shadow-sm w-100" style={{ minHeight: 225 }}>
+        return (
+        <div key={char._id} className="col-sm-6 col-md-4 v my-2" >
+          <div className="card shadow-sm w-100 h-100" style={{ minHeight: 225 }}>
             <div className="card-body">
-            <Link to={`/${char._id}`}>
-            <img src={char.imageUrl} className="img-fluid" alt={char.name}/>
-            </Link>
-            <h5 className="card-title text-center h2">Name: {char.name}</h5>
+              
+              <Link to={`/${char._id}`}>
+              <img src={char.imageUrl} 
+              className="img-fluid shadow-2-strong" 
+              alt={char.name}/>
+              </Link>
+
+              <h5 className="card-title text-center h2">Name: {char.name}</h5>
             </div>
           </div>
         </div>
-      }):
+    )}):
     <h2>Loading...</h2>}
-
+    
 
         
       <ReactPaginate
