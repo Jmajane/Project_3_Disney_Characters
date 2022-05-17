@@ -48,18 +48,12 @@ table {
 
 
 main {
-  background: url("https://wallpaperaccess.com/full/295720.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: aquamarine;
   align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
 }
 
-.character-list {
+/* .character-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -76,13 +70,13 @@ main {
   box-shadow: 5px 5px 10px;
   border: solid 2px rgb(35, 12, 179);
   object-fit: contain;
-}
+} */
 
 .character {
   text-align: center;
 }
 
-h3 {
-  font-size: 26px;
+h3, .nav{
+  font-size: 20px;
   font-family: Mouse Memoirs;
 }

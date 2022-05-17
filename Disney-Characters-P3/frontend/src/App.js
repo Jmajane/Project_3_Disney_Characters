@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Routes>
             <Route path='/' element={<Character />} />
-            <Route path='/character/:id' element={<CharacterInfo />} />
+            <Route path='/:id' element={<CharacterInfo />} />
       </Routes>
       <Footer />
 
