@@ -48,16 +48,17 @@ table {
 
 
 .App {
-  background-image: url("https://wallpaperaccess.com/full/6212972.jpg");
+  background-image: url("https://theboar.org/wp-content/uploads/2020/03/Disney-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
   height: 100%
 }
 
 .App-show {
   background-color: aquamarine;
-  height: 100vh
+  height: cover
 }
 
 h3, h5 {
@@ -71,7 +72,8 @@ main {
 img {
     border-radius: 50px;
     box-shadow: 5px 5px 10px;
-    border: solid 2px rgb(35, 12, 179);
-    width: 50%;
-    height: 50%
+    border: solid 2px rgb(35, 12, 179); 
+    width: 200px;
+    height: 237px  
 }
+

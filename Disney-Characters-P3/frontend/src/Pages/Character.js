@@ -39,26 +39,28 @@ function Character() {
 
   return (
     <div className="container">
-      <div className="row m-2">
+      <div className="row">
       {character ? character.data.map((char) => {
         return (
-        <div key={char._id} className="col-sm-6 col-md-4 v my-2" >
+        <div key={char._id} className="col" >
           <div className="">
-          <div className="" style={{ minHeight: 350, maxHeight: 350 }}>
+            <div className="images">
               
               <Link to={`/${char._id}`}>
                 <img src={char.imageUrl} 
-                className="card-img-top" 
+                className="" 
                 alt={char.name}/>
               </Link>
-
+             
+                
               <h5 className="card-title text-center h2">Name: {char.name}</h5>
+                
             </div>
           </div>
         </div>
     )}):
-    <h2>Loading...</h2>}
-    </div>
+      <h2>Loading...</h2>}
+      </div>
     
 
         
