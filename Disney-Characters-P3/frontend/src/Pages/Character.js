@@ -43,13 +43,13 @@ function Character() {
       {character ? character.data.map((char) => {
         return (
         <div key={char._id} className="col-sm-6 col-md-4 v my-2" >
-          <div className="card shadow-sm w-100 h-100" style={{ minHeight: 225 }}>
-            <div className="card-body">
+          <div className="">
+          <div className="" style={{ minHeight: 350, maxHeight: 350 }}>
               
               <Link to={`/${char._id}`}>
-              <img src={char.imageUrl} 
-              className="img-fluid shadow-2-strong" 
-              alt={char.name}/>
+                <img src={char.imageUrl} 
+                className="card-img-top" 
+                alt={char.name}/>
               </Link>
 
               <h5 className="card-title text-center h2">Name: {char.name}</h5>
@@ -58,6 +58,7 @@ function Character() {
         </div>
     )}):
     <h2>Loading...</h2>}
+    </div>
     
 
         
@@ -82,7 +83,6 @@ function Character() {
       />
       
        
-      </div>
     </div>
   )
 }

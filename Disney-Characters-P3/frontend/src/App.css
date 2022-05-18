@@ -48,13 +48,30 @@ table {
 
 
 .App {
-  background-color: aquamarine;
+  background-image: url("https://wallpaperaccess.com/full/6212972.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%
 }
 
-h3 {
+.App-show {
+  background-color: aquamarine;
+  height: 100vh
+}
+
+h3, h5 {
   font-family: Mouse Memoirs;
 }
 
 main {
   font-family: Mouse Memoirs;
+}
+
+img {
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px;
+    border: solid 2px rgb(35, 12, 179);
+    width: 50%;
+    height: 50%
 }

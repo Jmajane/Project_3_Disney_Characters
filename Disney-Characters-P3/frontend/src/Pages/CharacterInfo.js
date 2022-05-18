@@ -8,7 +8,7 @@ function CharacterInfo() {
   
   // const characterData = props.character
   // console.log(characterData)
-  const [character, setCharacter] = useState({});
+  const [character, setCharacter] = useState(null);
 
   const { id } = useParams()
   // console.log(params)
@@ -23,25 +23,81 @@ function CharacterInfo() {
     fetchDetails()
   }, [])
 
-  const mappingFilms = character.films.map((film) => {
+  const mappingFilms = character ? character.films.map((film, index) => {
     return (
-      <li>{film}</li>
-    )
-  })
+      <div key={index}>
+        <li>{film}</li>
+      </div>
+    )})
+  : <h2>Loading...</h2>
+
+  const mappingShortFilms = character ? character.shortFilms.map((shortFilms, index) => {
+    return (
+      <div key={index}>
+        <li>{shortFilms}</li>
+      </div>
+    )})
+  : <h2>Loading...</h2>
+
+  const mappingTVShows = character ? character.tvShows.map((tvShows, index) => {
+    return (
+      <div key={index}>
+        <li>{tvShows}</li>
+      </div>
+    )})
+  : <h2>Loading...</h2>
+
+  const mappingVideoGames = character ? character.videoGames.map((videoGames, index) => {
+    return (
+      <div key={index}>
+        <li>{videoGames}</li>
+      </div>
+    )})
+  : <h2>Loading...</h2>
+
+  const mappingParkAttractions = character ? character.parkAttractions.map((parkAttractions, index) => {
+    return (
+      <div key={index}>
+        <li>{parkAttractions}</li>
+      </div>
+    )})
+  : <h2>Loading...</h2>
+  
+  const mappingAllies = character ? character.allies.map((allies, index) => {
+    return (
+      <div key={index}>
+        <li>{allies}</li>
+      </div>
+    )})
+  : <h2>Loading...</h2>
+
+  const mappingEnemies = character ? character.enemies.map((enemies, index) => {
+    return (
+      <div key={index}>
+        <li>{enemies}</li>
+      </div>
+    )})
+  : <h2>Loading...</h2>
+ 
+
+
+
   return (
-    <main>
-      <div>     
-        <h2 className='text-center display-2'>Name: {character.name}</h2>
-        <img src={character.imageUrl} className="" alt={character.name}/>
-        <h4 className="text-center" >Films: 
-        <ul>{mappingFilms}</ul></h4>
-        <h4 className="text-center" >Short Films: {character.shortFilms}</h4>
-        <h4 className="text-center" >TV Shows: {character.tvShows}</h4>
-        <h4 className="text-center" >Video Games: {character.videoGames}</h4>
-        <h4 className="text-center" >Park Attractions: {character.parkAttractions}</h4>
-        <h4 className="text-center" >Allies: {character.allies}</h4>
-        <h4 className="text-center" >Enemies: {character.enemies}</h4>
-      </div>        
+    <main className='App-show'> {character ? 
+    
+      <div className='text-center'>     
+        <h2 className='display-2'>Name: {character.name}</h2>
+        <img src={character.imageUrl} className="rounded hover-shadow" alt={character.name}/>
+        <h4 className="display-6" >Films: <ul className='fs-5 text'>{mappingFilms}</ul></h4>
+        <h4 className="display-6" >Short Films: <ul className='fs-5 text'>{mappingShortFilms}</ul></h4>
+        <h4 className="display-6" >TV Shows: <ul className='fs-5 text'>{mappingTVShows}</ul></h4>
+        <h4 className="display-6" >Video Games: <ul className='fs-5 text'>{mappingVideoGames}</ul></h4>
+        <h4 className="display-6" >Park Attractions: <ul className='fs-5 text'>{mappingParkAttractions}</ul></h4>
+        <h4 className="display-6" >Allies: <ul className='fs-5 text'>{mappingAllies}</ul></h4>
+        <h4 className="display-6" >Enemies: <ul className='fs-5 text'>{mappingEnemies}</ul></h4>
+      </div>  
+
+    : null}
     </main>
   )
 }
