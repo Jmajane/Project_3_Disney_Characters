@@ -4,10 +4,14 @@ import { Link } from 'react-router-dom'
 
 import ReactPaginate from 'react-paginate'
 
-function Character() {
+function Character(props) {
     const [character, setCharacter] = useState(null)
 
-
+    const charPicture = "https://wallpaperboat.com/wp-content/uploads/2019/05/disney-christmas-3.jpg"
+  if (props.bg !== charPicture) {
+    props.setBG(charPicture)
+  }
+  
     useEffect(() => {
         const getCharacters = async () => {
           const res = await fetch(
@@ -53,7 +57,7 @@ function Character() {
               </Link>
              
                 
-              <h5 className="card-title text-center h2">Name: {char.name}</h5>
+              <h5 className="card-title text-center h2 text-info">Name: {char.name}</h5>
                 
             </div>
           </div>
