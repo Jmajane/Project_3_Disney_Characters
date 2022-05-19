@@ -91,7 +91,7 @@ function CharacterInfo(props) {
     
       <div className='text-center'>     
         <h2 className='display-2 text-danger'>Name: {character.name}</h2>
-        <img src={character.imageUrl} className="rounded hover-shadow" alt={character.name}/>
+        <img src={character.imageUrl} className="rounded-pill" alt={character.name}/>
         <h4 className="display-5 text-danger" >Films: <ul className='fs-4 text text-info'>{mappingFilms}</ul></h4>
         <h4 className="display-5 text-danger" >Short Films: <ul className='fs-4 text text-info'>{mappingShortFilms}</ul></h4>
         <h4 className="display-5 text-danger" >TV Shows: <ul className='fs-4 text text-info'>{mappingTVShows}</ul></h4>

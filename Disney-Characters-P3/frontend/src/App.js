@@ -5,6 +5,7 @@ import Character from './Pages/Character';
 import CharacterInfo from './Pages/CharacterInfo';
 import Header from './Components/Header'
 import Footer from './Components/Footer';
+import About from './Components/About'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
             <Route path='/' element={<Character setBG={setBG} bg={bg}/>} />
             <Route path='/:id' element={<CharacterInfo setBG={setBG} bg={bg}/>} />
+            <Route path='/about' element={<About setBG={setBG} bg={bg}/>} />
       </Routes>
       <Footer />
 

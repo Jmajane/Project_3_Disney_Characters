@@ -66,7 +66,6 @@ main {
   background-attachment: fixed;
   background-position: center;
   background-size: 100% 100%;
-  min-height: 100vh;
 }
 
 img {
@@ -75,4 +74,18 @@ img {
     border: solid 2px rgb(35, 12, 179); 
     width: 200px;
     height: 237px  
+}
+
+.dev {
+  width: auto;
+  height: 500px;
+}
+
+.footer {
+  opacity: .7;
+}
+
+a {
+  display: flex;
+  justify-content: center;
 }
