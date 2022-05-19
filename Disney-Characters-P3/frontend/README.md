@@ -115,3 +115,13 @@ My app is to search through disney characters. First the characters will be in a
 - Please feel free to fork an clone my code.
 
 ## SCREENSHOTS OF WEBPAGE
+
+![Screen Shot 2022-05-19 at 11 48 21 AM](https://user-images.githubusercontent.com/100162086/169345593-028d8c2e-f484-4d38-a5a8-2cb661102e06.png)
+
+![Screen Shot 2022-05-19 at 11 49 39 AM](https://user-images.githubusercontent.com/100162086/169345606-f9a94be5-f983-4812-9656-a36ab3927620.png)
+
+![Screen Shot 2022-05-19 at 11 50 07 AM](https://user-images.githubusercontent.com/100162086/169345619-d78997f8-4856-4c3e-b5de-7d47516b047b.png)
+
+
+
+
