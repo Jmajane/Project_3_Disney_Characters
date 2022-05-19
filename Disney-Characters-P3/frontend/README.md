@@ -1,17 +1,26 @@
 ## APP DESCRIPTION
-My app is to search through disney characters. First the characters will be in alphabetical order.  When you click on a picture it will take you the character page showing you additional information.  
+My app is to search through disney characters. First the characters will be in alphabetical order.  When you click on a picture it will take you the character page showing you additional information about the character. You will be able to see all information about the character provided by disney.  
 
 
 ## WIREFRAMES
 ![Screen Shot 2022-05-19 at 11 11 10 AM](https://user-images.githubusercontent.com/100162086/169337356-42839370-cf10-430e-94e8-dac9a735e889.png)
 ![Screen Shot 2022-05-19 at 11 22 05 AM](https://user-images.githubusercontent.com/100162086/169337368-5768827c-55c4-42c1-b0a8-902f51468cbd.png)
 
+## TECHNOLOGIES USED
+- REACT
+- FLEXBOX
+- BOOTSTRAP
 
+## GETTING STARTER
+- Open the app/webpage and click on a character to see their information
+- Additional pages at the bottom to go though all characters provided
 
 ## MVP USER STORIES
-- As a user, I want to be able to see images of the characters.
-- As a user, I want to be able to see what movies the chacter has been in.
-- As a user, I would like to see all the characters the disnay has to offer.
+- As a user, I want to be able to see images of the all the disney characters.
+
+- As a user, I want to be able to see what movies/video games the chacter has been in as well if they have any park attractions.
+
+- As a user, I would like to be able to switch pages and go throught all of the character.
 
 
 ## API
@@ -90,3 +99,19 @@ My app is to search through disney characters. First the characters will be in a
 ![Screen Shot 2022-05-19 at 11 30 24 AM](https://user-images.githubusercontent.com/100162086/169337456-8c9ef06e-4851-4397-a3e2-0267b484e051.png)
 
 
+## POTENTIAL ISSUES
+- a user cannot use the pagination at the bottom and refresh the browser. This will bring you back to the 1st page as the URL is not being changed with pagination.
+
+- Hitting the back button in the browser will bring you back to the previous URL.  If using pagination it wont bring you to the previos page.
+
+## STRETCH GOALS  
+- creating a search feature
+- connection a MongoDB database 
+- using RegEx to go through the database being able to search by name
+
+## CONTRIBUTION GUIDELINES
+- Always looking to improve any code that I have written/created.  
+- For anyone looking to contribute please submit an issue or reach out via linkedin.
+- Please feel free to fork an clone my code.
+
+## SCREENSHOTS OF WEBPAGE
