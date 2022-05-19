@@ -3,6 +3,8 @@ My app is to search through disney characters. First the characters will be in a
 
 
 ## WIREFRAMES
+![Screen Shot 2022-05-19 at 11 11 10 AM](https://user-images.githubusercontent.com/100162086/169337356-42839370-cf10-430e-94e8-dac9a735e889.png)
+![Screen Shot 2022-05-19 at 11 22 05 AM](https://user-images.githubusercontent.com/100162086/169337368-5768827c-55c4-42c1-b0a8-902f51468cbd.png)
 
 
 
@@ -85,5 +87,6 @@ My app is to search through disney characters. First the characters will be in a
 
 ## COMPONENT HIERARCHY
 
+![Screen Shot 2022-05-19 at 11 30 24 AM](https://user-images.githubusercontent.com/100162086/169337456-8c9ef06e-4851-4397-a3e2-0267b484e051.png)
 
 
