@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 function About(props) {
 
     const aboutPicture = "https://wallpaperaccess.com/full/2101913.jpg"
