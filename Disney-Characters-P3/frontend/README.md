@@ -10,10 +10,12 @@ My app is to search through disney characters. First the characters will be in a
 - REACT
 - FLEXBOX
 - BOOTSTRAP
+- NETLIFY (For Depolyment)
 
 ## GETTING STARTER
 - Open the app/webpage and click on a character to see their information
 - Additional pages at the bottom to go though all characters provided
+- Addition - about section at the bottom of the page
 
 ## MVP USER STORIES
 - As a user, I want to be able to see images of the all the disney characters.
@@ -115,6 +117,11 @@ My app is to search through disney characters. First the characters will be in a
 - Please feel free to fork an clone my code.
 - Always looking to improve any code that I have written/created.  
 - For anyone looking to contribute please submit an issue or reach out via linkedin.
+- When pulling down code be sure to run the following
+- npm init -y
+- npm i react-router-dom
+- npm i react-paginate --save
+- Note that Bootstrap is in the public folder in index.html
 
 
 ## SCREENSHOTS OF WEBPAGE
