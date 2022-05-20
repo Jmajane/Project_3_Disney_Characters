@@ -1,5 +1,5 @@
 ## APP DESCRIPTION
-My app is to search through disney characters. First the characters will be in alphabetical order.  When you click on a picture it will take you the character page showing you additional information about the character. You will be able to see all information about the character provided by disney.  
+My app is child friendly for kids to search through all the disney characters. First the characters will be in alphabetical order (depending if they have a first name or last name).  When you click on a picture it will take you the character page showing you additional information about the character. You will be able to see all information about the character provided by disney fan made api.  
 
 
 ## WIREFRAMES
