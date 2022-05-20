@@ -81,6 +81,16 @@ img {
   height: 500px;
 }
 
+.GHImg {
+  width: 10%;
+  height: 10%
+}
+
+.LinkedinImg {
+  width: 10%;
+  height: 10%
+}
+
 .footer {
   opacity: .7;
 }

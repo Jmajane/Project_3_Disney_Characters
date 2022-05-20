@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import GitHub from '../Pictures/GitHub.png'
+import Linkedin from '../Pictures/Linkedin.webp'
 
 
 function Footer(props) {
@@ -14,9 +15,11 @@ function Footer(props) {
           <h3>Developed By:</h3>
           <h5 className="text-primary"> Jordan A Majane</h5>
           <a href='https://github.com/Jmajane?tab=repositories'>
-          <img className="FooterGHImg" src={GitHub} alt="Github"/>
+            <img className="GHImg" src={GitHub} alt="Github"/>
           </a>
-          <a href='https://www.linkedin.com/in/jordan-majane/' target="_blank" rel="noopener noreferrer">Linkedin</a>  
+          <a href='https://www.linkedin.com/in/jordan-majane/'>
+            <img className="LinkedinImg" src={Linkedin} alt="Linkedin"/>
+          </a>  
           <Link to="/about">
             <div>About</div>
           </Link>        
