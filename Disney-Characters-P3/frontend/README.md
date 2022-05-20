@@ -104,15 +104,18 @@ My app is to search through disney characters. First the characters will be in a
 
 - Hitting the back button in the browser will bring you back to the previous URL.  If using pagination it wont bring you to the previos page.
 
+- App deployed on Netlify when refreshing browser on a character page the wepbage will crash and throw an error of page not found.
+
 ## STRETCH GOALS  
 - creating a search feature
 - connection a MongoDB database 
 - using RegEx to go through the database being able to search by name
 
 ## CONTRIBUTION GUIDELINES
+- Please feel free to fork an clone my code.
 - Always looking to improve any code that I have written/created.  
 - For anyone looking to contribute please submit an issue or reach out via linkedin.
-- Please feel free to fork an clone my code.
+
 
 ## SCREENSHOTS OF WEBPAGE
 
