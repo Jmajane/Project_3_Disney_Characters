@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import GitHub from '../Pictures/GitHub.png'
 
 
+function Footer(props) {
 
-function Footer() {
-    
+  
 
   return (
     <main className='text-center'>
@@ -12,7 +13,9 @@ function Footer() {
           <div className="display-5 text-success bg-info">
           <h3>Developed By:</h3>
           <h5 className="text-primary"> Jordan A Majane</h5>
-          <a href='https://github.com/Jmajane?tab=repositories' target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href='https://github.com/Jmajane?tab=repositories'>
+          <img className="FooterGHImg" src={GitHub} alt="Github"/>
+          </a>
           <a href='https://www.linkedin.com/in/jordan-majane/' target="_blank" rel="noopener noreferrer">Linkedin</a>  
           <Link to="/about">
             <div>About</div>

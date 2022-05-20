@@ -1,12 +1,11 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import Character from './Pages/Character';
 import CharacterInfo from './Pages/CharacterInfo';
-import Header from './Components/Header'
+import Header from './Components/Header';
 import Footer from './Components/Footer';
-import About from './Components/About'
-
+import About from './Components/About';
 
 function App() {
 
